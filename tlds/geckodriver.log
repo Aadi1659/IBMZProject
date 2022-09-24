@@ -1,0 +1,28 @@
+1664002423864	geckodriver	INFO	Listening on 127.0.0.1:52361
+1664002426940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52362" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aksha\\AppData\\Local\\Temp\\rust_mozprofiletb7hdI"
+*** You are running in headless mode.
+1664002427243	Marionette	INFO	Marionette enabled
+1664002427248	Marionette	INFO	Listening on port 52371
+Read port: 52371
+WebDriver BiDi listening on ws://127.0.0.1:52362
+1664002427315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aksha\\AppData\\Local\\Temp\\rust_mozprofiletb7hdI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52362/devtools/browser/9b8a0800-f8e2-49c5-8571-968d5c3a7371
+1664002429859	Marionette	INFO	Stopped listening on port 52371
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1664002528680	geckodriver	INFO	Listening on 127.0.0.1:62917
+1664002531735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62918" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aksha\\AppData\\Local\\Temp\\rust_mozprofilelW0xqM"
+*** You are running in headless mode.
+1664002532047	Marionette	INFO	Marionette enabled
+1664002532051	Marionette	INFO	Listening on port 62931
+Read port: 62931
+WebDriver BiDi listening on ws://127.0.0.1:62918
+1664002532121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aksha\\AppData\\Local\\Temp\\rust_mozprofilelW0xqM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62918/devtools/browser/4e8554be-22bf-4c38-8367-e12db8589a29
+1664002534696	Marionette	INFO	Stopped listening on port 62931
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
