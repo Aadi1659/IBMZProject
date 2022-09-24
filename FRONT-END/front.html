@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>URL Check Demo</title>
+      <link rel="icon" href="download.ico">
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <nav class="navbar bg-light static-top">
+            <div class="container">
+                <a class="navbar-brand but1" id="test1" href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU" target="_blank">Contact Us</a>
+                <a class="btn btn-primary login" href="https://www.googleapis.com/auth/cloud-platform">Login</a>
+            </div>
+       </nav>
+      <div id="sike">
+            <h1 id="legit">Check if a Website is Legit or not:</h1>
+            <div class="col">
+                  <form action="">
+                        <input class="form-control form-control-lg" id="check1" type="url" placeholder="Please enter URL" data-sb-validations="required,url" />
+                        <input type="reset" class="navbar-brand but2" id="test2" onclick="alert('Response has been submitted')" value="Submit">
+                        <div class="invalid-feedback text-white" data-sb-feedback="check1:required">URL is required.</div>
+                        <div class="invalid-feedback text-white" data-sb-feedback="check1:url">URL is not valid.</div>
+                  </form>
+            </div>
+
+      </div>
+</body>
+</html>
