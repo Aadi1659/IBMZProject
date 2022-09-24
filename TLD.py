@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import pandas as pd
 
+
+#added a comment
 website = 'https://data.iana.org/TLD/tlds-alpha-by-domain.txt'
 options=webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
